@@ -1,0 +1,42 @@
+*{margin:0; padding:0}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background: #4066FA;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 12px;
+
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type:none;
+    gap:30px;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid gainsboro
+}
+
+.new_post {
+    margin: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid gainsboro
+}

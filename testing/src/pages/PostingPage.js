@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import Navbar from '../components/Navbar'
 import '../App.css';
 import PostingList from './PostingList'
-import uuidv4 from 'uuid/v4'
+import {v4 as uuidv4} from 'uuid'
 import Pagination from '../components/Pagination';
 
 const LOCAL_STORAGE_KEY = 'postingApp.postings'

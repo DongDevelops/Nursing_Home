@@ -1,4 +1,4 @@
-# Healthcare
+# Nursing Home
 
 This is a website made using React where people can get a information about different nursing homes' locations, and post about anything as well.
 

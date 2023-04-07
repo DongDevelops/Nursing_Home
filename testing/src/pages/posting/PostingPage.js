@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react';
 import Navbar from '../../components/Navbar'
-import '../App.css';
+import '../../App.css';
 import PostingList from './PostingList'
 import {v4 as uuidv4} from 'uuid'
 import Pagination from '../../components/Pagination';
@@ -71,13 +71,13 @@ export default function PostingPage() {
     <div>
       <Navbar></Navbar>
       <br></br>
-      <div class="container">
-        <div class="new_post">
+      <div className="container">
+        <div className="new_post">
           <h3>New Post</h3>
           <br></br>
             <textarea placeholder="글 입력" ref={postingNameRef} />
             <input placeholder="이미지 url 입력" type="url" ref={postingImageRef} /><br></br><br></br>
-            <button class="btn btn-primary" onClick={handleAddPosting}>Post</button>
+            <button className="btn btn-primary" onClick={handleAddPosting}>Post</button>
         </div>
       </div>
 

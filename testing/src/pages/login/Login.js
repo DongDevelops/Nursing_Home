@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from "react";
 import Navbar from '../../components/Navbar'
 
-export default function ToLogin() {
+export default function Login() {
     const [user, setUser] = useState(null);
     const [isLogin, setIsLogin] = useState(false);
     const { Kakao } = window;
@@ -13,6 +13,8 @@ export default function ToLogin() {
         console.log(`kakao 초기화 ${Kakao.isInitialized()}`);
       }
     };
+
+    
     const kakaoLogin = async () => {
         await Kakao.Auth.login({
             success(res) {

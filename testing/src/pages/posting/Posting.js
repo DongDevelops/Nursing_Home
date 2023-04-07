@@ -16,19 +16,19 @@ export default function Posting({ posting, deletePosting, editPosting, updatePos
 
     return (
         posting.edit ?
-        <div class="container">
-            <div class="new_post">
+        <div className="container">
+            <div className="new_post">
             <textarea defaultValue={posting.text} ref={postingNameRef} />
             <input defaultValue={posting.image} type="url" ref={postingImageRef} /><br></br><br></br>
-            <button class="btn btn-primary" onClick={handleEditPosting}>Post</button>
+            <button className="btn btn-primary" onClick={handleEditPosting}>Post</button>
             </div>
         </div> :
-        <div class="container">
-            <div class="new_post">
+        <div className="container">
+            <div className="new_post">
                 {posting.text} <br></br><br></br>
                 <img src={posting.image} width="100" alt="picture" /><br></br><br></br>
-                <button class="btn btn-warning" onClick={edit_posting}>Edit</button>&nbsp;&nbsp;
-                <button class="btn btn-danger" onClick={delete_posting}>Delete</button>
+                <button className="btn btn-warning" onClick={edit_posting}>Edit</button>&nbsp;&nbsp;
+                <button className="btn btn-danger" onClick={delete_posting}>Delete</button>
             </div>
         </div>
     )

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import PostingPage from './pages/posting/PostingPage';
+import Admin from './pages/admin/Admin';
 import Search from './pages/search/Search';
 import {
   createBrowserRouter,
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "search",
     element: <Search />,
+  },
+  {
+    path: "admin",
+    element: <Admin />,
   },
 ]);
 

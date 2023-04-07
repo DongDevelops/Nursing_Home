@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react';
-import Navbar from '../components/Navbar'
+import Navbar from '../../components/Navbar'
 import '../App.css';
 import PostingList from './PostingList'
 import {v4 as uuidv4} from 'uuid'
-import Pagination from '../components/Pagination';
+import Pagination from '../../components/Pagination';
 
 const LOCAL_STORAGE_KEY = 'postingApp.postings'
 

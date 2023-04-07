@@ -1,14 +1,13 @@
 import React from 'react';
-import ToLogin from './ToLogin'
+import Login from './pages/login/Login';
 import './App.css';
 
 
 
 function App() {
   return (
-      <ToLogin />
+      <Login />
   )
 }
 
 export default App;
- 

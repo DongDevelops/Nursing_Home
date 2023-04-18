@@ -4,6 +4,8 @@ This is a website made using React where people can get a information about diff
 
 요양원들의 위치를 검색하고 의견을 공유할 수 있는 게시판을 이용할 수 있는 웹사이트를 리액트를 이용하여 개발
 
+
+
 구현 완료 기능:
 1. 카카오톡을 활용한 로그인
 2. 게시판( 페이징/글 등록/이미지 업로드/수정/삭제 ) 페이지 구현

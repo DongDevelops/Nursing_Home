@@ -3,8 +3,6 @@
 This is a website made using React where people can get a information about different nursing homes' locations, and post about anything as well.
 
 
-<요양원들의 위치를 검색하고 의견을 공유할 수 있는 게시판을 이용할 수 있는 웹사이트를 리액트를 이용하여 개발>
-
 프로젝트 내용 – 요양원 위치를 검색하고 의견 공유 가능한 웹사이트를 MERN을 통해 구현
 담당 과제(현재 진행중):
 1.	카카오톡을 활용한 로그인 (O)

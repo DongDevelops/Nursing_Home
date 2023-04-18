@@ -13,3 +13,4 @@ This is a website made using React where people can get a information about diff
 개발 중인 기능:
 1. 담당자 관리(등록/수정/삭제)페이지
 2. 건강보험공단 홈페이지 장기요양기관찾기에서 크롤링으로 전라남도 전체 기관의 정보( 기관명,기관주소,기관번호 )를 DB에 저장하고 기관리스트 페이지 구현  기관 클릭시 카카오지도 api를 활용해 클릭한 기관위치 마커 표시
+3. MongoDB를 통해 백엔드 구현

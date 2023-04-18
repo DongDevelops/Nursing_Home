@@ -4,6 +4,7 @@ This is a website made using React where people can get a information about diff
 
 
 프로젝트 내용 – 요양원 위치를 검색하고 의견 공유 가능한 웹사이트를 MERN을 통해 구현
+
 담당 과제(현재 진행중):
 1.	카카오톡을 활용한 로그인 (O)
 2.	게시판(페이징/글 등록/이미지 업로드/수정/삭제) 페이지 구현 (O)
